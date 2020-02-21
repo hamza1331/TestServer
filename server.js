@@ -4,7 +4,7 @@ var bodyparser = require("body-parser");
 var cors = require("cors");
 
 const User = require("./models/User.js")
-var {url} = 'mongodb://127.0.0.1:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false/testdb'
+var url = 'mongodb://127.0.0.1:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false/testdb'
 
 mongo.connect(url, {
   useNewUrlParser: true,
